@@ -71,7 +71,7 @@ LNAs are typically biased in **Class A**, which offers:
 
 **Practical tip:** Bias the transistor at approximately **Idss / 2** for optimal linearity and noise performance.
 
-**Attach DC Curve Image:**  
+**DC Curve Image:**  
 ![DC IV Curve](dciv_curve.png)
 
 ---
@@ -91,8 +91,8 @@ It is important to ensure **stability across the full operating frequency range*
 - For input stability: use **RC feedback** (capacitor blocks DC to ground)  
 - For output: use R, or high impedance network  
 
-**Attach Stability Plot Image:**  
-`![Stability Plot](docs/results/stability_plot.png)`
+**Stability Plot Image:**  
+![Stability Plot](stability_plot.png)
 
 ---
 
@@ -103,8 +103,8 @@ It is important to ensure **stability across the full operating frequency range*
 - Bypass capacitors: short RF to ground, block DC  
 - Model all possible discontinuities, including decoupling capacitors  
 
-**Attach Bias Network Image:**  
-`![Bias Network](docs/results/bias_network.png)`
+**Bias Network Image:**  
+![Bias Network](bias_network.png)
 
 ---
 
@@ -113,7 +113,7 @@ It is important to ensure **stability across the full operating frequency range*
 - Choose the intersection point of the **highest gain circle** with the **lowest noise circle** to select optimal input impedance  
 
 **Attach Gain/Noise Circle Image:**  
-`![Gain and Noise Circles](docs/results/gain_noise_circle.png)`
+![Gain and Noise Circles](gain_noise_circle.png)
 
 ---
 
@@ -124,20 +124,15 @@ It is important to ensure **stability across the full operating frequency range*
 - **Input Return Loss (S11):** < –15 dB  
 - **Output Return Loss (S22):** < –15 dB  
 
-**Attach Result Plots:**  
-`![Final Result](docs/results/final_result.png)`
+**Result Plots:**  
+![Final Result](final_result.png)
 
 ---
 
 ## Tools
 
 - **Simulation Tool:** Keysight Advanced Design System (ADS)  
-- **ADS Version:** XX  
 
----
 
-## How to Open the Project
 
-1. Open **Keysight ADS**  
-2. Set the workspace to this project directory  
-3. Open the schematic:  
+ 
