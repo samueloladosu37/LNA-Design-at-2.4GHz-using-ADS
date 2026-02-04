@@ -2,7 +2,7 @@
 
 Low Noise Amplifier (LNA) design implemented and simulated in **Keysight ADS** for the 2.4 GHz ISM band.
 
----
+
 
 ## LNA Design Specifications
 
@@ -14,7 +14,7 @@ Low Noise Amplifier (LNA) design implemented and simulated in **Keysight ADS** f
 - **P1dB:** > 10 dBm  
 - **OIP3:** > 20 dBm  
 
----
+
 
 ## LNA Design Technology Options
 
@@ -30,7 +30,7 @@ Low Noise Amplifier (LNA) design implemented and simulated in **Keysight ADS** f
 
 3. **RFIC (Silicon / CMOS)**  
 
----
+
 
 ## Device Selection Criteria (RF Board LNA)
 
@@ -44,7 +44,7 @@ Choose a transistor whose **NFmin ≤ 0.5 × desired LNA NF**.
 
 The transistor's intrinsic noise figure is less than half of the target LNA noise figure, making it suitable for low-noise design.
 
----
+
 
 ## LNA Impedance Matching Considerations
 
@@ -74,7 +74,7 @@ LNAs are typically biased in **Class A**, which offers:
 **DC Curve Image:**  
 ![DC IV Curve](dciv_curve.png)
 
----
+
 
 ## Stability Analysis
 
@@ -94,7 +94,7 @@ It is important to ensure **stability across the full operating frequency range*
 **Stability Plot Image:**  
 ![Stability Plot](stability_plot.png)
 
----
+
 
 ## Bias Network Design
 
@@ -106,13 +106,13 @@ It is important to ensure **stability across the full operating frequency range*
 **Bias Network Image:**  
 ![Bias Network](bias_network.png)
 
----
+
 
 ## Gain and Noise Circles
 
 - Choose the intersection point of the **highest gain circle** with the **lowest noise circle** to select optimal input impedance  
 
-**Attach Gain/Noise Circle Image:**  
+** Gain/Noise Circle Image:**  
 ![Gain and Noise Circles](gain_noise_circle.png)
 
 ---
@@ -121,7 +121,7 @@ It is important to ensure **stability across the full operating frequency range*
 
 - **Gain:** > 14 dB  
 - **Noise Figure (NF):** ≤ 1.4 dB  
-- **Input Return Loss (S11):** < –15 dB  
+- **Input Return Loss (S11):** < –12 dB  
 - **Output Return Loss (S22):** < –15 dB  
 
 **Result Plots:**  
@@ -129,9 +129,11 @@ It is important to ensure **stability across the full operating frequency range*
 
 ---
 
-## Tools
+## Resources
 
-- **Simulation Tool:** Keysight Advanced Design System (ADS)  
+- Keysight Advanced Design System (ADS)
+- Pozar book
+- Youtube videos
 
 
 
