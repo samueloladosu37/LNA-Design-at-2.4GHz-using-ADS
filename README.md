@@ -81,7 +81,7 @@ Bias the transistor at approximately **Idss / 2** for optimal linearity and nois
 ## Tools
 
 - **Simulation Tool:** Keysight Advanced Design System (ADS)  
-- **ADS Version:** XX  
+
 
 ---
 
