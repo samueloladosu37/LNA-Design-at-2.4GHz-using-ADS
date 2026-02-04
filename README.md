@@ -72,7 +72,7 @@ LNAs are typically biased in **Class A**, which offers:
 **Practical tip:** Bias the transistor at approximately **Idss / 2** for optimal linearity and noise performance.
 
 **Attach DC Curve Image:**  
-`![DC IV Curve](docs/results/dciv_curve.png)`
+`![DC IV Curve](dciv_curve.png)`
 
 ---
 
