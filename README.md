@@ -91,7 +91,7 @@ It is important to ensure **stability across the full operating frequency range*
 - For input stability: use **RC feedback** (capacitor blocks DC to ground)  
 - For output: use R, or high impedance network  
 
-**Stability Plot Image:**  
+**Stability Plot :**  
 ![Stability Plot](stability_plot.png)
 
 
@@ -103,7 +103,7 @@ It is important to ensure **stability across the full operating frequency range*
 - Bypass capacitors: short RF to ground, block DC  
 - Model all possible discontinuities, including decoupling capacitors  
 
-**Bias Network Image:**  
+**Bias Network :**  
 ![Bias Network](bias_network.png)
 
 
